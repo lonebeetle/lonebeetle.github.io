@@ -93,20 +93,22 @@ params:
     favicon32x32: "favicon.png"
     apple_touch_icon: "favicon.png"
     safari_pinned_tab: "favicon.png"
+
   giscus:
     repo: "lonebeetle/lonebeetle.github.io"
-    repo-id: "R_kgDOONuBUw"
+    repoId: "R_kgDOONuBUw"
     category: "Announcements"
-    categoryid: "DIC_kwDOONuBU84CohLV"
+    categoryId: "DIC_kwDOONuBU84CohLV"
     mapping: "pathname"
     strict: "0"
-    reactionsenabled: "1"
-    emitmetadata: "0"
-    inputposition: "bottom"
-    lighttheme: "light"
-    darktheme: "dark"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "bottom"
+    lightTheme: "light"
+    darkTheme: "dark"
     lang: "zh-CN"
     crossorigin: "anonymous"
+
 outputs:
   home:
     - HTML # 生成的静态页面
