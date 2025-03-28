@@ -103,7 +103,8 @@ params:
     reactionsenabled: "1"
     emitmetadata: "0"
     inputposition: "bottom"
-    theme: "dark"
+    lighttheme: "light"
+    darktheme: "dark"
     lang: "zh-CN"
     crossorigin: "anonymous"
 outputs:
