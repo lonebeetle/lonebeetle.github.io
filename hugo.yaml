@@ -44,7 +44,6 @@ languages:
         - name: "关于"
           pageRef: "about/"
           weight: 21
-paginate: 8 # 每页显示的文章数
 
 params:
   author: "LoneBeetle"
