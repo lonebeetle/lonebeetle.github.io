@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on My Personal Blog</title>
+    <title>Categories on LoneBeetle&#39;s Blog</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on My Personal Blog</description>
+    <description>Recent content in Categories on LoneBeetle&#39;s Blog</description>
+    <image>
+      <title>LoneBeetle&#39;s Blog</title>
+      <url>https://i.postimg.cc/7hwBy7VS/calcr.png</url>
+      <link>https://i.postimg.cc/7hwBy7VS/calcr.png</link>
+    </image>
     <generator>Hugo -- 0.145.0</generator>
-    <language>en-us</language>
+    <language>zh</language>
+    <copyright>©2024 LoneBeetle&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Thu, 27 Mar 2025 23:46:57 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experiment</title>
+      <link>http://localhost:1313/categories/experiment/</link>
+      <pubDate>Thu, 27 Mar 2025 23:46:57 +0800</pubDate>
+      <guid>http://localhost:1313/categories/experiment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>通用技术</title>
+      <link>http://localhost:1313/categories/%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Sun, 04 Aug 2024 03:25:53 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

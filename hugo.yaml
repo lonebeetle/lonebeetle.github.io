@@ -1,0 +1,125 @@
+theme: "PaperMod"
+baseURL: "https://lonebeetle.github.io/"
+title: "LoneBeetle's Blog"
+
+copyright: "[©2024 LoneBeetle's Blog](https://lonebeetle.github.io/)" # 网站的版权声明，通常显示在页脚
+languageCode: "zh-cn" # 语言
+
+enableInlineShortcodes: true # shortcode，类似于模板变量，可以在写 markdown 的时候便捷地插入
+hasCJKLanguage: true # 是否有 CJK 的字符
+enableRobotsTXT: true # 允许生成 robots.txt
+buildDrafts: false # 构建时是否包括草稿
+buildFuture: false # 构建未来发布的内容
+buildExpired: false # 构建过期的内容
+enableEmoji: true # 允许 emoji
+pygmentsUseClasses: true
+defaultContentLanguage: "zh" # 顶部首先展示的语言界面
+defaultContentLanguageInSubdir: false # 是否要在地址栏加上默认的语言代码
+
+languages:
+  zh:
+    languageName: "中文" # 展示的语言名
+    weight: 1 # 权重
+    taxonomies: # 分类系统
+      category: "categories"
+      tag: "tags"
+    # https://gohugo.io/content-management/menus/#define-in-site-configuration
+    menus:
+      main:
+        - name: "首页"
+          pageRef: "/"
+          weight: 4 # 控制在页面上展示的前后顺序
+        - name: "归档"
+          pageRef: "archives/"
+          weight: 5
+        - name: "分类"
+          pageRef: "categories/"
+          weight: 10
+        - name: "标签"
+          pageRef: "tags/"
+          weight: 10
+        - name: "搜索"
+          pageRef: "search/"
+          weight: 20
+        - name: "关于"
+          pageRef: "about/"
+          weight: 21
+
+params:
+  author: "LoneBeetle"
+  env: "production"
+  defaultTheme: "auto" # 默认主题
+  showreadingtime: true # 是否显示阅读时长
+  ShowPostNavLinks: true # 展示文章导航链接，就是下一页上一页的那个
+  ShowBreadCrumbs: false # 是否展示标题上方的面包屑
+  ShowRssButtonInSectionTermList: true # RSS 相关
+  showpostscount: true # 是否显示文章数量
+  showwordcount: true # 是否显示字数统计
+  ShowCodeCopyButtons: true # 是否展示复制代码的按钮
+  showpagenumber: true # 是否显示页码
+  ShowAllPagesInArchive: true # 在归档页面展示所有的页面
+  comments: true # 是否开启评论
+  ShowToc: true # 展示文章详情页的目录
+  images: ["https://i.postimg.cc/7hwBy7VS/calcr.png"] # 缺省的图片，比如，博客的封面
+  homeinfoparams:
+    # 首页信息
+    Title: "Hey guys👋, I'm LoneBeetle"
+    Content: >
+      Welcome to my Blog! This is where I record my life and share my knowledge.
+      <br>
+      Hope you all enjoy it!
+      <br>
+    socialIcons:
+      - name: "GitHub"
+        title: Follow my Github
+        url: "https://github.com/lonebeetle"
+
+  # 搜索
+  fuseOpts:
+    isCaseSensitive: false # 是否大小写敏感
+    shouldSort: true # 是否排序
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+    includeMatches: true
+  # 设置网站的标签页的图标，即 favicon
+  assets:
+    disableHLJS: true
+    favicon: "favicon.png"
+    favicon16x16: "favicon.png"
+    favicon32x32: "favicon.png"
+    apple_touch_icon: "favicon.png"
+    safari_pinned_tab: "favicon.png"
+  giscus:
+    repo: "lonebeetle/lonebeetle.github.io"
+    repo-id: "R_kgDOONuBUw"
+    category: "Announcements"
+    categoryid: "DIC_kwDOONuBU84CohLV"
+    mapping: "pathname"
+    strict: "0"
+    reactionsenabled: "1"
+    emitmetadata: "0"
+    inputposition: "bottom"
+    theme: "dark"
+    lang: "zh-CN"
+    crossorigin: "anonymous"
+outputs:
+  home:
+    - HTML # 生成的静态页面
+    - RSS # 可选，生成 RSS 订阅
+    - JSON # 生成 JSON 数据，供搜索功能使用    
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true      # 允许 ``` 代码块
+    lineNos: true       # 是否显示行号
+    guessSyntax: true     # 自动识别语言
+    lineNumbersInTable: true  # 显示行号
+    noClasses: false      # 使用 CSS 代码高亮
+    #style: "dracula"      # 代码块主题（可改为 "monokai", "github", "solarized-dark"）没用，要自己加css
+
