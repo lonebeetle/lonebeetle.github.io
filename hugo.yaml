@@ -44,23 +44,28 @@ languages:
         - name: "关于"
           pageRef: "about/"
           weight: 21
+paginate: 8 # 每页显示的文章数
 
 params:
   author: "LoneBeetle"
+  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
   env: "production"
   defaultTheme: "auto" # 默认主题
   showreadingtime: true # 是否显示阅读时长
+  ShowShareButtons: false # 关闭分享的按钮
   ShowPostNavLinks: true # 展示文章导航链接，就是下一页上一页的那个
   ShowBreadCrumbs: false # 是否展示标题上方的面包屑
+  displayFullLangName: true # 展示全名
   ShowRssButtonInSectionTermList: true # RSS 相关
   showpostscount: true # 是否显示文章数量
   showwordcount: true # 是否显示字数统计
   ShowCodeCopyButtons: true # 是否展示复制代码的按钮
-  showpagenumber: true # 是否显示页码
+  ShowPageNums: true # 展示页面的页数
   ShowAllPagesInArchive: true # 在归档页面展示所有的页面
   comments: true # 是否开启评论
   ShowToc: true # 展示文章详情页的目录
   images: ["https://i.postimg.cc/7hwBy7VS/calcr.png"] # 缺省的图片，比如，博客的封面
+  DateFormat: "2006-01-02" # 这个时间是作者自己写的，只能这样写
   homeinfoparams:
     # 首页信息
     Title: "Hey guys👋, I'm LoneBeetle"
@@ -70,7 +75,7 @@ params:
       Hope you all enjoy it!
       <br>
     socialIcons:
-      - name: "GitHub"
+      - name: GitHub
         title: Follow my Github
         url: "https://github.com/lonebeetle"
 
