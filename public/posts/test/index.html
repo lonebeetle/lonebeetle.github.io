@@ -259,7 +259,7 @@ tags = [&ldquo;博客搭建&rdquo;, &ldquo;Bilibili&rdquo;]
     <h1 class="post-title entry-hint-parent">
       Hugo &#43; PaperMod &#43; Github Pages 搭建一个完善的个人博客(以 Windows11 为例)
     </h1>
-    <div class="post-meta"><span title='2024-08-04 03:25:53 +0800 CST'>八月 4, 2024</span>&nbsp;·&nbsp;14 分钟&nbsp;·&nbsp;6627 字&nbsp;·&nbsp;LoneBeetle
+    <div class="post-meta"><span title='2024-08-04 03:25:53 +0800 CST'>2024-08-04</span>&nbsp;·&nbsp;14 分钟&nbsp;·&nbsp;6627 字&nbsp;·&nbsp;LoneBeetle
 
 </div>
   </header> <div class="toc">
@@ -1948,8 +1948,8 @@ $$
   
   const getStoredTheme = () =>
     localStorage.getItem("pref-theme") === "light"
-      ? ""
-      : "";
+      ? "light"
+      : "dark";
   const setGiscusTheme = () => {
     const sendMessage = (message) => {
       const iframe = document.querySelector("iframe.giscus-frame");
@@ -1967,7 +1967,7 @@ $$
     const giscusAttributes = {
       src: "https://giscus.app/client.js",
       "data-repo": "lonebeetle\/lonebeetle.github.io",
-      "data-repo-id": "",
+      "data-repo-id": "R_kgDOONuBUw",
       "data-category": "Announcements",
       "data-category-id": "DIC_kwDOONuBU84CohLV",
       "data-mapping": "pathname",

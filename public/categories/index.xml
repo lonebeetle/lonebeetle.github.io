@@ -12,8 +12,15 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
     <copyright>©2024 LoneBeetle&amp;rsquo;s Blog</copyright>
-    <lastBuildDate>Thu, 27 Mar 2025 23:46:57 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 17 Apr 2025 00:38:53 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>运动健康</title>
+      <link>http://localhost:1313/categories/%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7/</link>
+      <pubDate>Thu, 17 Apr 2025 00:38:53 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Experiment</title>
       <link>http://localhost:1313/categories/experiment/</link>

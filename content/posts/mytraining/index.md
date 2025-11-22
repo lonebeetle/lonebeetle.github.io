@@ -7,7 +7,8 @@ tags:
   - 运动健康
   - 体育竞技
 ---
-4.13大概可以半马122台的水准
+
+4.13 大概可以半马 122 台的水准
 接下来安排一次严肃训练周期的训练计划
 
 ![flaw.jpg](training_plan/flaw.jpg)
@@ -27,4 +28,3 @@ tags:
 ![stage4.4.jpg](training_plan/stage4.4.jpg)
 ![stage4.5.jpg](training_plan/stage4.5.jpg)
 ![stage4.jpg](training_plan/stage4.jpg)
-
